@@ -4,14 +4,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		User u=new User();
-		u.setPassword("hello");
-		u.setUserId(1);
-		u.setUsername("Banti");
-		
-		
-		System.out.println("Password: "+u.getPassword());
-		System.out.println("UserId: "+u.getUserId());
-		System.out.println("Username: "+u.getUsername());
+	User u=new User();
+	u.setId(101);
+	u.setName("NOBITA");
+	u.setPassword("@mruta1432");
+	
+	
+	System.out.println(u.getId());
+	System.out.println(u.getName());
+	System.out.println(u.getPassword());
 	}
 }
